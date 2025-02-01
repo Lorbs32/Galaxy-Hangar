@@ -1,0 +1,5 @@
+CREATE TABLE hangar_spaces (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    space_number INT NOT NULL UNIQUE,
+    status VARCHAR(20) NOT NULL
+);
